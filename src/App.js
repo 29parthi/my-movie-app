@@ -3,9 +3,9 @@ import React,{useEffect,useState} from 'react';
 import Movie from './components/Movie';
 
 const FEATURED_API =
-    "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=YOUR_KEY&page=1";
+    "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=75a25651e88903eaef09607f81b2ab32&page=1";
 const SEARCH_API =
-    "https://api.themoviedb.org/3/search/movie?&api_key=YOUR_KEY&query=";
+    "https://api.themoviedb.org/3/search/movie?&api_key=75a25651e88903eaef09607f81b2ab32&query=";
 
 function App() {
   const [movies , setMovies] = useState([]);
